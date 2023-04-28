@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+display: flex;
+flex-direction: row;
+
+}
+
+.box1{
+    color: antiquewhite;
+    width: 400px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.box1:hover{
+    color: black;
+    background-color: azure;
+    cursor: pointer;
+}
+.box2{
+    color: antiquewhite;
+    width: 400px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+}
+.box2:hover{
+    color: black;
+    background-color: azure;
+    cursor: pointer;
+}
+
+.box3{
+    color: antiquewhite;
+    width: 400px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.box3:hover{
+    color: black;
+    background-color: azure;
+    cursor: pointer;
+}.box4{
+    color: antiquewhite;
+    width: 400px;
+    height: 30px;
+    border: 2px solid white;
+    text-align: center;
+}
+
+.box4:hover{
+    color: black;
+    background-color: azure;
+    cursor: pointer;
+}
+.circle{
+    z-index: 1;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color:yellow;
+    position: absolute;
+    left: 643px;
+    top: 285px;
+    animation: circle 10s infinite alternate;
+    
+    
+}
+
+@keyframes circle{
+    0%{
+        background-color: white;
+        
+    }
+    10%{
+        background-color: blue;
+    }
+    15%{
+        background-color: brown;
+    }
+    20%{
+        background-color: grey;
+    }
+    25%{
+        background-color: white;
+    }
+    30%{
+        background-color: purple;
+    }
+    40%{
+        background-color: orangered;
+    }
+    
+    65%{
+    
+        width: 200px;
+        height: 200px;
+        border-radius: 10px;
+        background-color: chocolate;
+
+    }
+    85%{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        background-color: brown;
+    }
+
+
+
+}
+.container2{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    bottom: 0;
+    
+    
+    }
+    
+    .box1a{
+        color: antiquewhite;
+        width: 400px;
+        height: 30px;
+        border: 2px solid white;
+        text-align: center;
+    }
+    
+    .box1a:hover{
+        color: black;
+        background-color: azure;
+        cursor: pointer;
+    }
+    .box2a{
+        color: antiquewhite;
+        width: 400px;
+        height: 30px;
+        border: 2px solid white;
+        text-align: center;
+    }
+    .box2a:hover{
+        color: black;
+        background-color: azure;
+        cursor: pointer;
+    }
+    
+    .box3a{
+        color: antiquewhite;
+        width: 400px;
+        height: 30px;
+        border: 2px solid white;
+        text-align: center;
+    }
+    
+    .box3a:hover{
+        color: black;
+        background-color: azure;
+        cursor: pointer;
+    }.box4a{
+        color: antiquewhite;
+        width: 400px;
+        height: 30px;
+        border: 2px solid white;
+        text-align: center;
+    }
+    
+    .box4a:hover{
+        color: black;
+        background-color: azure;
+        cursor: pointer;
+
+
+    }
+
+@media screen and (min-width: 320px) and (max-width: 580px) {
+    .circle{
+        height: 200px;
+        width: 200px;
+        position: absolute;
+        left: 180px;
+        top: 314px;
+    }
+    .container{
+        display: flex;
+        gap: 10px;
+    }
+    .container2{
+        height: 50px;
+        width: 100%;
+        display: flex;
+        gap: 10px;
+    
+
+    }
+}
